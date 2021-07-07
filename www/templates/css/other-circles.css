@@ -1,0 +1,20 @@
+.circle1, .circle2{
+    border-radius: 50%;
+    position: absolute;
+    background-image: linear-gradient(to right bottom, 
+    rgba(255, 255, 255, 0.7), 
+    rgba(255, 255, 255, 0.3)
+    );
+}
+.circle1{
+    height: 250px;
+    width: 250px;
+    top: -50px;
+    right: 15%;
+}
+.circle2{
+    height: 200px;
+    width: 200px;
+    top: 300px;
+    left: 15%;
+}
