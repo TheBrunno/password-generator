@@ -50,5 +50,4 @@ form input[type="button"]:hover{
 }
 .check-container label{
     cursor: pointer;
-    user-select: none;
 }
