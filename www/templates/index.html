@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="us">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,19 +13,28 @@
     <link rel="stylesheet" href="css/background.css">
     <link rel="stylesheet" href="css/other-circles.css">
     <link rel="stylesheet" href="css/form.css">
-</head>
-<body>
+  </head>
+  <body>
     <main>
-        <div class="circle1"></div>
-        <div class="circle2"></div>
-        <section>
-            <h1>Password Generator</h1>
-            <form autocomplete="off">
-                <label>Password length</label>
-                <input type="text">
-                <input type="button" value="Submit">
-            </form>
-        </section>
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+      <section>
+        <h1>Password Generator</h1>
+        <form autocomplete="off">
+          <label class="word">Password length: <input type="text" id="password-length"></label>
+          <div class="check-container">
+            <div class="letters">
+              <label><input type="checkbox" checked>Insert uppercase letters</label>
+              <label><input type="checkbox" checked>Insert lowercase letters</label>
+            </div>
+            <div class="number-special">
+              <label><input type="checkbox" checked>Insert special characters</label>
+              <label><input type="checkbox" checked>Insert numbers</label>
+            </div>
+          </div>
+          <input type="button" value="Submit" id="submit-button">
+        </form>
+      </section>
     </main>
-</body>
+  </body>
 </html>

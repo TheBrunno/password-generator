@@ -1,17 +1,54 @@
-main section h1{
-    display: block;
-}
-form{
-    background-color: rgba(255, 255, 255, 0.7);
-    width: 300px;
+main section h1, label{
+  display: block;
 }
 h1{
-    color: rgb(29, 40, 46);
-    font-size: 40px;
-    width: 500px;
-    padding: 40px 0 140px 0;
+  color: rgb(29, 40, 46);
+  font-size: 40px;
+  width: 500px;
+  padding: 40px 0 40px 0;
+}
+.word{
+  margin-bottom: 20px;
 }
 form, h1{
-    margin:0 auto;
-    text-align: center;
+  margin:0 auto;
+  text-align: center;
+}
+form input, form label{
+  font-family: 'Poppins';
+  font-size: 18px;
+  border-radius: 5px;
+}
+form label{ font-size: 22px; }
+
+form input{
+  margin: 30px;
+  padding: 10px;
+}
+
+form input[type="text"]{
+  width: 100px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+form input[type="button"]{
+  border: none;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+form input[type="checkbox"]{
+  height: 20px;
+  width: 20px;
+}
+form input[type="button"]:hover{
+  filter: brightness(92%);
+}
+.check-container{
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+}
+.check-container label{
+    cursor: pointer;
+    user-select: none;
 }
