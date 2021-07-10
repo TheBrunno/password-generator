@@ -20,21 +20,23 @@
       <div class="circle2"></div>
       <section>
         <h1>Password Generator</h1>
-        <form autocomplete="off">
+        <form autocomplete="off" onsubmit="return false">
           <label class="word">Password length: <input type="text" id="password-length"></label>
           <div class="check-container">
             <div class="letters">
-              <label><input type="checkbox" checked>Insert uppercase letters</label>
-              <label><input type="checkbox" checked>Insert lowercase letters</label>
+              <label><input type="checkbox" checked class="check-boxs">Insert uppercase letters</label>
+              <label><input type="checkbox" checked class="check-boxs">Insert lowercase letters</label>
             </div>
             <div class="number-special">
-              <label><input type="checkbox" checked>Insert special characters</label>
-              <label><input type="checkbox" checked>Insert numbers</label>
+              <label><input type="checkbox" checked class="check-boxs">Insert special characters</label>
+              <label><input type="checkbox" checked class="check-boxs">Insert numbers</label>
             </div>
           </div>
           <input type="button" value="Submit" id="submit-button">
         </form>
       </section>
     </main>
+    <script type="text/javascript" src="js/characters.js"></script>
+    <script type="text/javascript" src="js/password-generator.js"></script>
   </body>
 </html>

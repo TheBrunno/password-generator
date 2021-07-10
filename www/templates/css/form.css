@@ -15,7 +15,7 @@ form, h1{
   text-align: center;
 }
 form input, form label{
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
   border-radius: 5px;
 }

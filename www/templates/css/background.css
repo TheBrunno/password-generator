@@ -1,8 +1,10 @@
 main{
   min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+body{
   background-image: linear-gradient(
     to right,
     #65dfc9,
     #6cdbeb);
-  font-family: 'Poppins'
 }
